@@ -23,6 +23,8 @@ Therefore, this script does not claim to be correct or "state of the art". Maybe
 
 If anyone has to shake their head while reading it, feel free to send me their suggestions before you get a shaking impact syndrome.
 
+English is not my mother tongue either. So bear with me if you find spelling or stylistic mistakes.
+
 ## Prerequisites
 
 * Ubuntu 22.04 (Of course, it can also run on other distributions or versions, but I don't know).
