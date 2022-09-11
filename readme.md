@@ -47,3 +47,15 @@ This documentation also describes the docker command to execute the dump. Howeve
 1. Setup *ssmtp*. I have used these [instructions](https://decatec.de/home-server/linux-einfach-e-mails-senden-mit-ssmtp/). It's in German, but I'm sure you can find something in English or in your language.
 1. Setup crontab. In the repository is the crontab file of my root user as an example. Please do not edit the crontab file directly! Use the command `sudo crontab -e`. In my file, the job should run every Sunday at 10pm.<br>
 Note the line with `MAILTO="RecipentEMail@xxxx.com"`. Set the e-mail address that is to receive the mail here.
+
+## Example output in e-mail
+
+    2022-09-10 20:08:01 Backup file: /home/minix/docspellbackup/20220910_docspell.sqlc
+    2022-09-10 20:08:01 Mount point: /mnt/backup_ecoDMS 
+
+    2022-09-10 20:08:01 Start backup... OK
+    2022-09-10 20:09:33 Check if backup file was created... OK
+    2022-09-10 20:09:33 Check if we have the remote directory mounted... OK
+    2022-09-10 20:09:33 Copy the backup file to the remote directory... OK
+    2022-09-10 20:10:08 Check if both files are the same... OK
+    2022-09-10 20:11:06 Remove the backup file on this machine... OK
